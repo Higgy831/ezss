@@ -1,0 +1,22 @@
+{
+  "name": "MyGame",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "noise-ts": "^1.0.1",
+    "vite": "^5.0.10"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^6.35.0",
+    "@babylonjs/inspector": "^6.35.0",
+    "@babylonjs/loaders": "^6.35.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
